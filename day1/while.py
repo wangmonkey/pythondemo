@@ -1,5 +1,8 @@
-# coding=utf-8
-# Python关于while循环
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2018/6/27 13:45
+# @Author : zhouyang
+# @File : while.py
 
 
 
@@ -14,7 +17,7 @@ a = random.randint(1,10)
 count = 0;
 while count < 3:
     count += 1
-    number = input("请输入一个数字：")
+    number = raw_input("请输入一个数字：")
     if number.isdigit():
         number = int(number)
         if number == a:
