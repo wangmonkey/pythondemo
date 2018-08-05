@@ -26,3 +26,33 @@ print("\t",name,"\n",newName)
 favorite_language = " python "
 print(favorite_language)
 print(favorite_language.rstrip())
+
+# 数字
+print(2 + 3)
+print(3 - 2)
+print(2 * 3)
+print(3 / 2)
+print(3 ** 2)
+print(3 ** 3)
+print(10 ** 6)
+
+print(2 + 3**4)
+print((2+3)**4)
+
+# 浮点数
+print(0.1 + 0.1)
+print(0.2 + 0.1)
+
+# test
+print("        ************************************               ")
+print(4*2)
+print(2**3)
+print(16/2)
+print(5+3)
+print(10-2)
+
+favorite_num = 24
+favorite_num = "this is a num"
+print(favorite_num)
+
+import this
