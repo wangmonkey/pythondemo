@@ -5,4 +5,6 @@
 # @Site :  
 # @File : Guidance.py 
 # @Software: PyCharm
-import this
+from book.Chapter8 import greet_user
+
+greet_user("liyang")
